@@ -6,27 +6,28 @@ void destra();
 void giu();
 int main()
 {
-    system("color a");
+    system("color c");
     printf(" o\n/|\\\n/ \\");
     while(1==1)
     {
-        scanf("%d",&x);
+        scanf("%s",&x);
         system("cls");
         printf(" /\\ \n/  \\ \n|  | ");
         switch(x)
         {
-            case 6:
-            d++;
+            case 100:
+                d++;
             break;
-            case 4:
-            d--;
+            case 97:
+                d--;
+            break;
+            case 119:
+                s--;
+            break;
+            case 115:
 
-            break;
-            case 8:
-            s--;
-            break;
-            case 2:
-            s++;
+
+                s++;
             break;
         }
         giu();
@@ -37,7 +38,7 @@ int main()
 }
     void destra()
     {
-        system("color a");
+        system("color c");
         int d1=d,d2=d,d3=d;
         while(d1>0)
         {
